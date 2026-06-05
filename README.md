@@ -1,6 +1,8 @@
 # Transcriptomics-project-Reuma
 Project Reuma vs Controle
 
+**help hoe en waar moet ik de resultaten bestanden en scripts neerzetten** 
+
 ## 📁 Introductie 
 Reumatoïde artritis (RA) is een chronische, systematische auto-immuunziekte waarbij het immuunsysteem het eigen gewrichtsweefsel aanvalt. De exacte oorzaak is nog niet volledig bekend, maar een combinatie van genetische factoren, omgevingsinvloeden en een ontregelde immuunrespons speelt een belangrijke rol. Een kenmerkend aspect van RA is synovitis: een ontsteking van het gewrichtsslijmvlies die leidt tot pijn, zwelling en uiteindelijk gewrichtsschade. Vroege diagnose en inzicht in de onderliggende moleculaire processen zijn essentieel om progressie te beperken. 
 
@@ -8,3 +10,35 @@ In dit project is een transcriptomics-analyse uitgevoerd op RNA-seq data afkomst
 ___
 
 ## 🔬 Methode
+De analyse is uitgevoerd in R, waarbij alle onderdelen van de RNA-seq analyse stap voor stap zijn verwerkt. De ruwe FASTQ-bestanden zijn gemapt op het humane referentiegenoom **GRCh38 (GCF_000001405.40_GRCh38.p14)**. Hiervoor is het pakket **Rsubread** gebruikt. Eerst is een index ingebouwd, waarna alle reads van de acht samples zijn uitgelijnd. De resulterende BAM-bestanden zijn gesorteerd en geïndexeerd met **Rsamtools**.
+
+Vervolgens zijn gen-tellingen gegenereerd met **featureCounts**, waarbij gebruik gemaakt is van een bijbehorend **genomic.gtf**-annotatiebestand. De count matrix is gebruikt als input voor **DESeq2**, waarmee differntiële genexpressie tussen RA en gezonde controles is bepaald. Hierbij is een model gebruikt met de factor *treatment* (Normal vs RA).
+
+Na de DESeq2-analyse zijn significante genen geselecteerd op basis van padj <0.05 en |log2FC| >1. Om te zien welke processen in het lichaam anders werken, is er een GO-analyse gedaan. Daarbij is ervoor gezorgd dat langere en kortere genen eerlijk met elkaar vergeleken worden. Daarnaast is er een KEGG-analyse uitgevoerd om betrokken signaalroutes te identificeren.  
+___
+
+## 📊 Resultaten
+De DESeq2-analyse identificeerde in totaal **4572 differentieel tot expressie komende genen (DEGs)** tussen RA en gezond. Daarvan waren:
+**- 2085 genen verhoogd (up-regulated) in RA**
+**- 2487 genen verlaagd (down-regulated) in RA**
+Opvallende genen die sterk veranderden, waren onder andere **BAX, BCL2A1** en **SRGN**. Die genen zijn betrokken bij apoptose, immuunactivatie en ontstekingsprocessen.
+
+De GO-analyse liet zien dat bepaalde processen extra actief zijn bij reuma, waaronder:
+- immuunrespons
+- cytokine-gemedieerde signaalroutes
+- leukocytenactivatie
+- extracellulaire matrixorganisatie
+- ontstekingsprocessen
+
+De KEGG-analyse toonde aan welke pathways in het lichaam extra actief zijn bij reuma, zoals:
+**- TNF signaling pathways**
+**- Cytokine-cytokine receptor interaction**
+**- Toll-like receptor signaling**
+**- NF-kB signaling**
+**-Chemokine signaling pathway**
+___
+
+## 🧠 Conclusie
+Deze transcriptomics-analyse laat dat reuma zorgt voor grote veranderingen in hoe genen zich gedragen in het gewricht. De sterke toename van genen die betrokken zijn bij ontsteking, cytokinesignalering en immuunactivatie wijst op een hyperactieve immuunrespons in RA-weefsel. Daarnaast toont de resultaten afwijkingen in apoptose-gerelateerde genen en extracellulaire matrixprocessen, wat aansluit bij de weefselremodellering en gewrichtsschade die kenmerkend zijn voor RA.
+
+De verrijkte GO-termen en KEGG-pathways bevestigen dat vooral **TNF-, NF-kB-** en **cytokinesignalering** een centrale rol spelen in de ziekte. Deze bevindingen sluiten aan bij bestaande kennis over RA en ondersteunen het gebruik van therapieën die gericht zijn op cytokineremming (zoals anti-TNF-medicatie). De resultaten bieden daarnaast informatie voor verder onderzoek naar nieuwe biomarkter en therapeutische targets. 
