@@ -35,7 +35,7 @@ De KEGG-analyse toonde aan welke pathways in het lichaam extra actief zijn bij r
 **- Cytokine-cytokine receptor interaction**
 **- Toll-like receptor signaling**
 **- NF-kB signaling**
-**-Chemokine signaling pathway**
+**-Chemokine signaling pathway**.
 ___
 
 ## 🧠 Conclusie
