@@ -1,4 +1,4 @@
-Competentie beheren:   hier nog ff mapje icoontje neerzetten
+## 📁 Competentie beheren
 ___
 
 Een efficiënte en gestructureerde manier van data beheren is essentieel binnen wetenschappelijk onderzoek, omdat het de **kwaliteit, betrouwbaarheid en reproduceerbaarheid** van resultaten waarborgt. Door data systematisch op te slaan, te documenteren en te versiebeheren, kunnen onderzoekers hun analyses later exact reproduceren en kunnen anderen het onderzoek eenvoudig hergebruiken.
