@@ -17,7 +17,7 @@ Vervolgens zijn gen-tellingen gegenereerd met **featureCounts**, waarbij gebruik
 Na de DESeq2-analyse zijn significante genen geselecteerd op basis van padj <0.05 en |log2FC| >1. Om te zien welke processen in het lichaam anders werken, is er een GO-analyse gedaan. Daarbij is ervoor gezorgd dat langere en kortere genen eerlijk met elkaar vergeleken worden. Daarnaast is er een KEGG-analyse uitgevoerd om betrokken signaalroutes te identificeren.  
 
 <div align="center">
-  <img src="Achtergrondinformatie + methode/Flowschema methode.png" width="600"><br>
+  <img src="Achtergrondinformatie + methode/Flowschema van de methode.png" width="600"><br>
   <b>Figuur 1.</b> GO-enrichment barplot.
 </div>
 
