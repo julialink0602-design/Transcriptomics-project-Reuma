@@ -25,11 +25,11 @@ De GO-enrichmentanalyse in figuur 2 laat zien dat de DEGs sterk cluseren binnen 
 <table>
   <tr>
     <td align="center">
-      <img src="Resultaten/VolcanoWC.png" width="350"><br>
+      <img src="Resultaten/VolcanoplotWC.png" width="350"><br>
       <b>Figuur 1.</b> Volcano plot van de DESeq2-analyse.
     </td>
     <td align="center">
-      <img src="Resultaten/GO_dotplot.png" width="550"><br>
+      <img src="Resultaten/GO dotplot.png" width="550"><br>
       <b>Figuur 2.</b> GO-enrichment dotplot.
     </td>
   </tr>
