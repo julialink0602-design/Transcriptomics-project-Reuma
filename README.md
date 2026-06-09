@@ -41,9 +41,83 @@ De GO-barplot in figuur 3 bevestigt dat vooral humorale en adaptieve immuunroute
 De **IL-17 pathway** is gekozen omdat IL17A een belangrijke drijver is van RA-ontsteking en betrokken is bij de overgang van acute naar chronische gewrichtsschade. Het onderliggende artikel (*Cytokine, 2008; PMID:18039580) staat in de map **Bronnen** en beschrijft IL-17-pathway als centraal mechanisme in RA-pathogenese.
 De pathview-analyse van het **IL-17-pathway** toont dat meerdere ontstekingsgerelateerde genfamilies sterk geactiveerd zijn. Vooral chemokines (**CXCL1, CXCL2, CXCL5, CXCL8, CXCL10, CCL2, CCL7 en CCL20**) en matrix-metalloproteïnases (**MMP1, MMP3, MMP9 en MMP13**) zijn duidelijk up-gereguleerd, wat wijst op verhoogde immuuncelrekrutering en weefselremodellering bij personen met RA. In de map **Resultaten** staat de volledige pathview. Met figuur 4 en tabel 1 is er ingezoomd op het **effector-segment van de IL-17-pathway**, waar de downstream-activatie van *NF‑κB en MAPK* leidt tot expressie van ontstekingsgerelateerde genen. 
 
+<div style="font-size: 40%;">
+  
+Tabel 1. Ingezoomd overzicht van IL‑17‑geïnduceerde ontstekingsgenen (Pathview‑analyse) 
+| **Categorie**        | **Genen / Moleculen**                                       | **Regulatie**                     |
+|----------------------|-------------------------------------------------------------|-----------------------------------|
+| **Chemokines**       | CXCL1, CXCL2, CXCL5, CXCL8, CXCL10, CCL2, CCL7, CCL20       | 🔴 Upregulated                    |
+| **Cytokines**        | IL‑6, COX2                                                  | 🔴 Upregulated                    |
+|                      | G‑CSF                                                       | 🟢 Downregulated                  |
+|                      | TNFα, GM‑CSF                                                | ⚪ Geen significante verandering  |
+| **Anti‑microbieel**  | Defensin, S100A7                                            | ⚪ Geen significante verandering  |
+|                      | MjCS                                                        | 🟢 Downregulated                  |
+|                      | S100A8, S100A9, LCN2                                        | 🔴 Upregulated                    |
+| **Tissue remodeling**| MMP1, MMP3, MMP9, MMP13                                     | 🔴 Upregulated                    | 
+</div>
 
+<div style="font-size: 40%;">
 
+<h4>Tabel 1. Ingezoomd overzicht van IL‑17‑geïnduceerde ontstekingsgenen (Pathview‑analyse)</h4>
 
+<table>
+  <tr>
+    <th>Categorie</th>
+    <th>Genen / Moleculen</th>
+    <th>Regulatie</th>
+  </tr>
+
+  <tr>
+    <td><b>Chemokines</b></td>
+    <td>CXCL1, CXCL2, CXCL5, CXCL8, CXCL10, CCL2, CCL7, CCL20</td>
+    <td>🔴 Upregulated</td>
+  </tr>
+
+  <tr>
+    <td><b>Cytokines</b></td>
+    <td>IL‑6, COX2</td>
+    <td>🔴 Upregulated</td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td>G‑CSF</td>
+    <td>🟢 Downregulated</td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td>TNFα, GM‑CSF</td>
+    <td>🟣 Geen significante verandering</td>
+  </tr>
+
+  <tr>
+    <td><b>Anti‑microbieel</b></td>
+    <td>Defensin, S100A7</td>
+    <td>🟣 Geen significante verandering</td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td>MjCS</td>
+    <td>🟢 Downregulated</td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td>S100A8, S100A9, LCN2</td>
+    <td>🔴 Upregulated</td>
+  </tr>
+
+  <tr>
+    <td><b>Tissue remodeling</b></td>
+    <td>MMP1, MMP3, MMP9, MMP13</td>
+    <td>🔴 Upregulated</td>
+  </tr>
+
+</table>
+
+</div>
 
 
 ___
