@@ -14,4 +14,4 @@ Bij gevoelige of persoonlijke data moet er aan privacy-richtlijnen worden gehoud
 **Open data** is belangrijk omdat het wetenschappelijk onderzoek versnelt, transparantie bevordert en hergebruik mogelijk maakt. Door datasets en scripts openbaar te maken, draag ik bij aan een betrouwbare en toegankelijke wetenschap. 
 
 
-R scripts aanpassen, werkcollege weghalen
+
