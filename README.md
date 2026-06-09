@@ -28,7 +28,7 @@ De DESeq2-analyse identificeerde 4572 differentieel tot expressie komende genen 
       <b>Figuur 1.</b> Volcano plot van de DESeq2-analyse.
     </td>
     <td align="center">
-      <img src="Resultaten/GO_dotplot.png" width="500"><br>
+      <img src="Resultaten/GO dotplot.png" width="500"><br>
       <b>Figuur 2.</b> GO-enrichment dotplot.
     </td>
   </tr>
