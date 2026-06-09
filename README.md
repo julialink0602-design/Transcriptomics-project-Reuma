@@ -41,47 +41,27 @@ De GO-barplot in figuur 3 bevestigt dat vooral humorale en adaptieve immuunroute
 De **IL-17 pathway** is gekozen omdat IL17A een belangrijke drijver is van RA-ontsteking en betrokken is bij de overgang van acute naar chronische gewrichtsschade. Het onderliggende artikel (*Cytokine, 2008; PMID:18039580) staat in de map **Bronnen** en beschrijft IL-17-pathway als centraal mechanisme in RA-pathogenese.
 De pathview-analyse van het **IL-17-pathway** toont dat meerdere ontstekingsgerelateerde genfamilies sterk geactiveerd zijn. Vooral chemokines (**CXCL1, CXCL2, CXCL5, CXCL8, CXCL10, CCL2, CCL7 en CCL20**) en matrix-metalloproteïnases (**MMP1, MMP3, MMP9 en MMP13**) zijn duidelijk up-gereguleerd, wat wijst op verhoogde immuuncelrekrutering en weefselremodellering bij personen met RA. In de map **Resultaten** staat de volledige pathview. Met figuur 4 en tabel 1 is er ingezoomd op het **effector-segment van de IL-17-pathway**, waar de downstream-activatie van *NF‑κB en MAPK* leidt tot expressie van ontstekingsgerelateerde genen. 
 
-<table>
-  <tr>
+<div align="center">
+  <img src="Resultaten/Barplot.png" width="600"><br>
+  <b>Figuur 3.</b> GO-enrichment barplot.
+</div>
 
-    <td align="center">
-      <img src="Resultaten/Barplot .png" width="300"><br>
-      <b>Figuur 3.</b> GO-enrichment barplot.
-    </td>
+<br><br>
 
-    <td align="center">
-      <img src="Resultaten/Ingezoomd stukje pathview.png" width="350"><br>
-      <b>Figuur 4.</b> Ingezoomd stukje pathview.
-    </td>
-
-    <td align="center">
-      <img src="Resultaten/Tabel ingezoomd stukje pathview.png" width="300"><br>
-      <b>Tabel 1.</b> IL‑17‑doelgenen (ingezoomd Pathview-segment).
-    </td>
-
-  </tr>
-</table>
-
-
-<div style="display: flex; justify-content: center; gap: 20px;">
+<div style="display: flex; justify-content: center; gap: 30px;">
 
   <div align="center">
-    <img src="Resultaten/Barplot.png" width="300"><br>
-    <b>Figuur 1.</b> GO-enrichment barplot.
+    <img src="Resultaten/Ingezoomd stukje pathview.png" width="400"><br>
+    <b>Figuur 4.</b> Ingezoomd stukje Pathview.
   </div>
 
   <div align="center">
-    <img src="Resultaten/Ingezoomd stukje pathview.png" width="350"><br>
-    <b>Figuur 2.</b> Ingezoomd stukje pathview.
-  </div>
-
-  <div align="center">
-    <img src="Resultaten/Tabel ingezoomd stukje pathview.png" width="300"><br>
-    <b>Figuur 3.</b> IL‑17‑doelgenen (tabel).
+    <img src="Resultaten/Tabel ingezoomd stukje pathview.png" width="350"><br>
+    <b>Tabel1.</b> IL‑17‑doelgenen (tabel).
   </div>
 
 </div>
-   
+
 
 
 
