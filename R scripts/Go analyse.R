@@ -43,8 +43,6 @@ deg <- resultaten_clean[
 nrow(deg)
 
 
-#Maak genenlijsten
-
 # Alle geteste genen
 all.genes <- resultaten_clean$gene
 
