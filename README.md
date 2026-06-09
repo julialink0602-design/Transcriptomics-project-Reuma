@@ -1,7 +1,7 @@
 # Transcriptomics-project-Reuma
 Project Reuma vs Controle
 
-**help hoe en waar moet ik de resultaten bestanden en scripts neerzetten** **STUKJE OVER GEKOZEN PATHWAY, AI DISCLAIMER TOEVOEGEN**
+**help hoe en waar moet ik de resultaten bestanden en scripts neerzetten** **STUKJE OVER GEKOZEN PATHWAY, AI DISCLAIMER TOEVOEGEN** **dat ding nog uitleggen data stewardship**
 
 ## 📁 Introductie 
 Reumatoïde artritis (RA) is een chronische, systematische auto-immuunziekte waarbij het immuunsysteem het eigen gewrichtsweefsel aanvalt. De exacte oorzaak is nog niet volledig bekend, maar een combinatie van genetische factoren, omgevingsinvloeden en een ontregelde immuunrespons speelt een belangrijke rol. Een kenmerkend aspect van RA is synovitis: een ontsteking van het gewrichtsslijmvlies die leidt tot pijn, zwelling en uiteindelijk gewrichtsschade. Vroege diagnose en inzicht in de onderliggende moleculaire processen zijn essentieel om progressie te beperken. (Platzer et al., 2019)
@@ -41,88 +41,33 @@ De GO-barplot in figuur 3 bevestigt dat vooral humorale en adaptieve immuunroute
 De **IL-17 pathway** is gekozen omdat IL17A een belangrijke drijver is van RA-ontsteking en betrokken is bij de overgang van acute naar chronische gewrichtsschade. Het onderliggende artikel (*Cytokine, 2008; PMID:18039580) staat in de map **Bronnen** en beschrijft IL-17-pathway als centraal mechanisme in RA-pathogenese.
 De pathview-analyse van het **IL-17-pathway** toont dat meerdere ontstekingsgerelateerde genfamilies sterk geactiveerd zijn. Vooral chemokines (**CXCL1, CXCL2, CXCL5, CXCL8, CXCL10, CCL2, CCL7 en CCL20**) en matrix-metalloproteïnases (**MMP1, MMP3, MMP9 en MMP13**) zijn duidelijk up-gereguleerd, wat wijst op verhoogde immuuncelrekrutering en weefselremodellering bij personen met RA. In de map **Resultaten** staat de volledige pathview. Met figuur 4 en tabel 1 is er ingezoomd op het **effector-segment van de IL-17-pathway**, waar de downstream-activatie van *NF‑κB en MAPK* leidt tot expressie van ontstekingsgerelateerde genen. 
 
-<div style="font-size: 40%;">
-  
-Tabel 1. Ingezoomd overzicht van IL‑17‑geïnduceerde ontstekingsgenen (Pathview‑analyse) 
-| **Categorie**        | **Genen / Moleculen**                                       | **Regulatie**                     |
-|----------------------|-------------------------------------------------------------|-----------------------------------|
-| **Chemokines**       | CXCL1, CXCL2, CXCL5, CXCL8, CXCL10, CCL2, CCL7, CCL20       | 🔴 Upregulated                    |
-| **Cytokines**        | IL‑6, COX2                                                  | 🔴 Upregulated                    |
-|                      | G‑CSF                                                       | 🟢 Downregulated                  |
-|                      | TNFα, GM‑CSF                                                | ⚪ Geen significante verandering  |
-| **Anti‑microbieel**  | Defensin, S100A7                                            | ⚪ Geen significante verandering  |
-|                      | MjCS                                                        | 🟢 Downregulated                  |
-|                      | S100A8, S100A9, LCN2                                        | 🔴 Upregulated                    |
-| **Tissue remodeling**| MMP1, MMP3, MMP9, MMP13                                     | 🔴 Upregulated                    | 
+<div align="center">
+  <img src="Resultaten/Barplot .png" width="600"><br>
+  <b>Figuur 3.</b> GO-enrichment barplot.
 </div>
 
-<div style="font-size: 40%;">
-
-<h4>Tabel 1. Ingezoomd overzicht van IL‑17‑geïnduceerde ontstekingsgenen (Pathview‑analyse)</h4>
+<br><br>
 
 <table>
   <tr>
-    <th>Categorie</th>
-    <th>Genen / Moleculen</th>
-    <th>Regulatie</th>
+    <td align="center">
+      <img src="Resultaten/Ingezoomd stukje pathview.png" width="350"><br>
+      <b>Figuur 4.</b> Ingezoomd stukje Pathview.
+    </td>
+    <td align="center">
+      <b>Tabel 1.</b> IL‑17‑doelgenen van ingezoomd stukje Pathview.
+      <img src="Resultaten/Tabel ingezoomd stukje pathview.png" width="550"><br>
+    </td>
   </tr>
-
-  <tr>
-    <td><b>Chemokines</b></td>
-    <td>CXCL1, CXCL2, CXCL5, CXCL8, CXCL10, CCL2, CCL7, CCL20</td>
-    <td>🔴 Upregulated</td>
-  </tr>
-
-  <tr>
-    <td><b>Cytokines</b></td>
-    <td>IL‑6, COX2</td>
-    <td>🔴 Upregulated</td>
-  </tr>
-
-  <tr>
-    <td></td>
-    <td>G‑CSF</td>
-    <td>🟢 Downregulated</td>
-  </tr>
-
-  <tr>
-    <td></td>
-    <td>TNFα, GM‑CSF</td>
-    <td>🟣 Geen significante verandering</td>
-  </tr>
-
-  <tr>
-    <td><b>Anti‑microbieel</b></td>
-    <td>Defensin, S100A7</td>
-    <td>🟣 Geen significante verandering</td>
-  </tr>
-
-  <tr>
-    <td></td>
-    <td>MjCS</td>
-    <td>🟢 Downregulated</td>
-  </tr>
-
-  <tr>
-    <td></td>
-    <td>S100A8, S100A9, LCN2</td>
-    <td>🔴 Upregulated</td>
-  </tr>
-
-  <tr>
-    <td><b>Tissue remodeling</b></td>
-    <td>MMP1, MMP3, MMP9, MMP13</td>
-    <td>🔴 Upregulated</td>
-  </tr>
-
 </table>
 
-</div>
 
 
 ___
 
 ## 🧠 Conclusie
-Deze transcriptomics-analyse laat dat reuma zorgt voor grote veranderingen in hoe genen zich gedragen in het gewricht. De sterke toename van genen die betrokken zijn bij ontsteking, cytokinesignalering en immuunactivatie wijst op een hyperactieve immuunrespons in RA-weefsel. Daarnaast toont de resultaten afwijkingen in apoptose-gerelateerde genen en extracellulaire matrixprocessen, wat aansluit bij de weefselremodellering en gewrichtsschade die kenmerkend zijn voor RA.
+Deze transcriptomics-analyse laat zien dat reumatoïde artritis gepaard met duidelijke veranderingen in genexpressie in het synoviale weefsel. De DESeq2-analyse toont duizenden differentieel tot expressie komende genen, waarbij vooral ontstekings- en immuunresponsgenen sterk zijn upgereguleerd. Opvallende genen zoals SRGN, CD28, CR1, ALPL en ADAMTS6 wijzen op activatie van immuuncellen, cytokinesignalering en weefselremodellering. Daarnaast laten apoptose-gerelateerde genen (zoals BAX en BCL2A1) verstoringen zien die passen bij de chronische ontstekingsomgeving in RA. 
 
-De verrijkte GO-termen en KEGG-pathways bevestigen dat vooral **TNF-, NF-kB-** en **cytokinesignalering** een centrale rol spelen in de ziekte. Deze bevindingen sluiten aan bij bestaande kennis over RA en ondersteunen het gebruik van therapieën die gericht zijn op cytokineremming (zoals anti-TNF-medicatie). De resultaten bieden daarnaast informatie voor verder onderzoek naar nieuwe biomarkter en therapeutische targets. 
+De GO-analyse bevestigt dat vooral adaptieve en humorale immuunprocessen, waaronder immunoglobuline complex, B-celactivatie en antigen binding, versterkt zijn. Dit sluit aan de bij bekende rol van B-cellen en auto-antilichamen in RA. De KEGG-analyse toont dat centrale ontstekingsroutes, zoals TNF-, NF κB, Toll like receptor  en cytokine cytokine receptor interactie, duidelijk geactiveerd zijn. De pathview-analyse van het IL-17-pathview laat bovendien sterke upregulatie zien van chemokines (CXCL1/2/5/8/10, CCL2/7/20), matrix neutrofielenrekrutering, kraakbeendegradatie en synoviale inflammatie.
+
+Deze resultaten bevestigen dat RA wordt gedreven door een hyperactieve immuunrespons en versterkte cytokine signalering. De bevindngen ondersteunen bestaande therapieën zoals anti-TNF en bieden aanknopingspunten voor nieuwe biomarkers en therapeutische targets. (Siegmund & Wajant, 2023)
