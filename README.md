@@ -20,12 +20,8 @@ ___
 ## 📊 Resultaten
 De DESeq2-analyse identificeerde 4572 differentieel tot expressie komende genen (DEGs) tussen RA en gezond, waarvan 2085 verhoogd en 2487 verlaagd. Opvallende genen zoals **BAX**, **BCL2A1**, **SRGN**, **CD28**, **ALPL** en **ADAMTS6** lieten sterke regulatie zien, passend bij apoptose, immuunactivatie en ontstekingsprocessen. In figuur 1 visualiseert de vulcano plot deze veranderingen op basis van log₂ fold change en −log₁₀ p waarde.
 
-<img width="400" height="500" alt="VolcanoplotWC" src="https://github.com/user-attachments/assets/d17dc052-f9aa-4a12-a651-7a85e5a2d2b0" />
-<p align="center">
-  <img src="figures/Volcano.png" width="400">
-  <br>
-  <b>Figuur 1.</b> Volcano plot van de DESeq2-analyse.
-</p>
+<img width="300" height="400" alt="VolcanoplotWC" src="https://github.com/user-attachments/assets/d17dc052-f9aa-4a12-a651-7a85e5a2d2b0" />
+
 
 
 
