@@ -53,7 +53,7 @@ Tabel 1. Ingezoomd overzicht van IL‑17‑geïnduceerde ontstekingsgenen (Pathv
 | **Anti‑microbieel**  | Defensin, S100A7                                            | ⚪ Geen significante verandering  |
 |                      | MjCS                                                        | 🟢 Downregulated                  |
 |                      | S100A8, S100A9, LCN2                                        | 🔴 Upregulated                    |
-| **Tissue remodeling**| MMP1, MMP3, MMP9, MMP13                                     | 🔴 Upregulated                   | 
+| **Tissue remodeling**| MMP1, MMP3, MMP9, MMP13                                     | 🔴 Upregulated                    | 
 </div>
 
 <div style="font-size: 40%;">
