@@ -56,12 +56,12 @@ De pathview-analyse van het **IL-17-pathway** toont dat meerdere ontstekingsgere
 <table>
   <tr>
     <td align="center">
-      <img src="Resultaten/Ingezoomd stukje pathview.png" width="350"><br>
+      <img src="Resultaten/Ingezoomd stukje pathview.png" width="330"><br>
       <b>Figuur 5.</b> Ingezoomd stukje Pathview.
     </td>
     <td align="center">
       <b>Tabel 1.</b> IL‑17‑doelgenen van ingezoomd stukje Pathview.
-      <img src="Resultaten/Tabel ingezoomd stukje pathview.png" width="550"><br>
+      <img src="Resultaten/Tabel ingezoomd stukje pathview.png" width="600"><br>
     </td>
   </tr>
 </table>
