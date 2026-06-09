@@ -56,7 +56,7 @@ Tabel 1. Ingezoomd overzicht van IL‑17‑geïnduceerde ontstekingsgenen (Pathv
 | **Tissue remodeling**| MMP1, MMP3, MMP9, MMP13                                     | 🔴 Upregulated                   | 
 </div>
 
-<div style="font-size: 65%;">
+<div style="font-size: 40%;">
 
 <h4>Tabel 1. Ingezoomd overzicht van IL‑17‑geïnduceerde ontstekingsgenen (Pathview‑analyse)</h4>
 
