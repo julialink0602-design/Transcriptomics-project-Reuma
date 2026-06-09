@@ -1,7 +1,7 @@
 # Transcriptomics-project-Reuma
 Project Reuma vs Controle
 
-**help hoe en waar moet ik de resultaten bestanden en scripts neerzetten** **STUKJE OVER GEKOZEN PATHWAY, AI DISCLAIMER TOEVOEGEN**
+**help hoe en waar moet ik de resultaten bestanden en scripts neerzetten** **STUKJE OVER GEKOZEN PATHWAY, AI DISCLAIMER TOEVOEGEN** **dat ding nog uitleggen data stewardship**
 
 ## 📁 Introductie 
 Reumatoïde artritis (RA) is een chronische, systematische auto-immuunziekte waarbij het immuunsysteem het eigen gewrichtsweefsel aanvalt. De exacte oorzaak is nog niet volledig bekend, maar een combinatie van genetische factoren, omgevingsinvloeden en een ontregelde immuunrespons speelt een belangrijke rol. Een kenmerkend aspect van RA is synovitis: een ontsteking van het gewrichtsslijmvlies die leidt tot pijn, zwelling en uiteindelijk gewrichtsschade. Vroege diagnose en inzicht in de onderliggende moleculaire processen zijn essentieel om progressie te beperken. (Platzer et al., 2019)
@@ -66,6 +66,8 @@ De pathview-analyse van het **IL-17-pathway** toont dat meerdere ontstekingsgere
 ___
 
 ## 🧠 Conclusie
-Deze transcriptomics-analyse laat dat reuma zorgt voor grote veranderingen in hoe genen zich gedragen in het gewricht. De sterke toename van genen die betrokken zijn bij ontsteking, cytokinesignalering en immuunactivatie wijst op een hyperactieve immuunrespons in RA-weefsel. Daarnaast toont de resultaten afwijkingen in apoptose-gerelateerde genen en extracellulaire matrixprocessen, wat aansluit bij de weefselremodellering en gewrichtsschade die kenmerkend zijn voor RA.
+Deze transcriptomics-analyse laat zien dat reumatoïde artritis gepaard met duidelijke veranderingen in genexpressie in het synoviale weefsel. De DESeq2-analyse toont duizenden differentieel tot expressie komende genen, waarbij vooral ontstekings- en immuunresponsgenen sterk zijn upgereguleerd. Opvallende genen zoals SRGN, CD28, CR1, ALPL en ADAMTS6 wijzen op activatie van immuuncellen, cytokinesignalering en weefselremodellering. Daarnaast laten apoptose-gerelateerde genen (zoals BAX en BCL2A1) verstoringen zien die passen bij de chronische ontstekingsomgeving in RA. 
 
-De verrijkte GO-termen en KEGG-pathways bevestigen dat vooral **TNF-, NF-kB-** en **cytokinesignalering** een centrale rol spelen in de ziekte. Deze bevindingen sluiten aan bij bestaande kennis over RA en ondersteunen het gebruik van therapieën die gericht zijn op cytokineremming (zoals anti-TNF-medicatie). De resultaten bieden daarnaast informatie voor verder onderzoek naar nieuwe biomarkter en therapeutische targets. 
+De GO-analyse bevestigt dat vooral adaptieve en humorale immuunprocessen, waaronder immunoglobuline complex, B-celactivatie en antigen binding, versterkt zijn. Dit sluit aan de bij bekende rol van B-cellen en auto-antilichamen in RA. De KEGG-analyse toont dat centrale ontstekingsroutes, zoals TNF-, NF κB, Toll like receptor  en cytokine cytokine receptor interactie, duidelijk geactiveerd zijn. De pathview-analyse van het IL-17-pathview laat bovendien sterke upregulatie zien van chemokines (CXCL1/2/5/8/10, CCL2/7/20), matrix neutrofielenrekrutering, kraakbeendegradatie en synoviale inflammatie.
+
+Deze resultaten bevestigen dat RA wordt gedreven door een hyperactieve immuunrespons en versterkte cytokine signalering. De bevindngen ondersteunen bestaande therapieën zoals anti-TNF en bieden aanknopingspunten voor nieuwe biomarkers en therapeutische targets. (Siegmund & Wajant, 2023)
