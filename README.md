@@ -56,6 +56,68 @@ Tabel 1. Ingezoomd overzicht van IL‑17‑geïnduceerde ontstekingsgenen (Pathv
 | **Tissue remodeling**| MMP1, MMP3, MMP9, MMP13                                     | 🔴 Upregulated                   | 
 </div>
 
+<div style="font-size: 65%;">
+
+<h4>Tabel 1. Ingezoomd overzicht van IL‑17‑geïnduceerde ontstekingsgenen (Pathview‑analyse)</h4>
+
+<table>
+  <tr>
+    <th>Categorie</th>
+    <th>Genen / Moleculen</th>
+    <th>Regulatie</th>
+  </tr>
+
+  <tr>
+    <td><b>Chemokines</b></td>
+    <td>CXCL1, CXCL2, CXCL5, CXCL8, CXCL10, CCL2, CCL7, CCL20</td>
+    <td>🔴 Upregulated</td>
+  </tr>
+
+  <tr>
+    <td><b>Cytokines</b></td>
+    <td>IL‑6, COX2</td>
+    <td>🔴 Upregulated</td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td>G‑CSF</td>
+    <td>🟢 Downregulated</td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td>TNFα, GM‑CSF</td>
+    <td>🟣 Geen significante verandering</td>
+  </tr>
+
+  <tr>
+    <td><b>Anti‑microbieel</b></td>
+    <td>Defensin, S100A7</td>
+    <td>🟣 Geen significante verandering</td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td>MjCS</td>
+    <td>🟢 Downregulated</td>
+  </tr>
+
+  <tr>
+    <td></td>
+    <td>S100A8, S100A9, LCN2</td>
+    <td>🔴 Upregulated</td>
+  </tr>
+
+  <tr>
+    <td><b>Tissue remodeling</b></td>
+    <td>MMP1, MMP3, MMP9, MMP13</td>
+    <td>🔴 Upregulated</td>
+  </tr>
+
+</table>
+
+</div>
 
 
 ___
