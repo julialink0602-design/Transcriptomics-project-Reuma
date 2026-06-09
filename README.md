@@ -42,7 +42,7 @@ De **IL-17 pathway** is gekozen omdat IL17A een belangrijke drijver is van RA-on
 De pathview-analyse van het **IL-17-pathway** toont dat meerdere ontstekingsgerelateerde genfamilies sterk geactiveerd zijn. Vooral chemokines (**CXCL1, CXCL2, CXCL5, CXCL8, CXCL10, CCL2, CCL7 en CCL20**) en matrix-metalloproteïnases (**MMP1, MMP3, MMP9 en MMP13**) zijn duidelijk up-gereguleerd, wat wijst op verhoogde immuuncelrekrutering en weefselremodellering bij personen met RA. In de map **Resultaten** staat de volledige pathview. Met figuur 4 en tabel 1 is er ingezoomd op het **effector-segment van de IL-17-pathway**, waar de downstream-activatie van *NF‑κB en MAPK* leidt tot expressie van ontstekingsgerelateerde genen. 
 
 <div align="center">
-  <img src="Resultaten/Barplot.png" width="600"><br>
+  <img src="Resultaten/Barplot .png" width="600"><br>
   <b>Figuur 3.</b> GO-enrichment barplot.
 </div>
 
