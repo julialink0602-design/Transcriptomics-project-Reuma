@@ -16,7 +16,12 @@ Vervolgens zijn gen-tellingen gegenereerd met **featureCounts**, waarbij gebruik
 
 Na de DESeq2-analyse zijn significante genen geselecteerd op basis van padj <0.05 en |log2FC| >1. Om te zien welke processen in het lichaam anders werken, is er een GO-analyse gedaan. Daarbij is ervoor gezorgd dat langere en kortere genen eerlijk met elkaar vergeleken worden. Daarnaast is er een KEGG-analyse uitgevoerd om betrokken signaalroutes te identificeren.  
 
-<img width="697" height="137" alt="Flowschema methode" src="https://github.com/user-attachments/assets/9761d611-63b3-4603-a7bf-ea69603f9b99" />
+
+<div align="center">
+  <img src="Resultaten/Flowschema methode.png" width="600"><br>
+  <b>Figuur 1.</b> Flowschema RNA-seq analyse.
+</div>
+
 ___
 
 ## 📊 Resultaten
