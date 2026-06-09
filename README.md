@@ -20,6 +20,7 @@ Na de DESeq2-analyse zijn significante genen geselecteerd op basis van padj <0.0
 <div align="center">
   <img src="Resultaten/Flowschema methode.png" width="600"><br>
   <b>Figuur 1.</b> Flowschema RNA-seq analyse.
+
 </div>
 
 ___
