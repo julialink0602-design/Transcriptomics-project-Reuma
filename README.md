@@ -41,7 +41,7 @@ De GO-barplot in figuur 3 bevestigt dat vooral humorale en adaptieve immuunroute
 De **IL-17 pathway** is gekozen omdat IL17A een belangrijke drijver is van RA-ontsteking en betrokken is bij de overgang van acute naar chronische gewrichtsschade. Het onderliggende artikel (*Cytokine, 2008; PMID:18039580) staat in de map **Bronnen** en beschrijft IL-17-pathway als centraal mechanisme in RA-pathogenese.
 De pathview-analyse van het **IL-17-pathway** toont dat meerdere ontstekingsgerelateerde genfamilies sterk geactiveerd zijn. Vooral chemokines (**CXCL1, CXCL2, CXCL5, CXCL8, CXCL10, CCL2, CCL7 en CCL20**) en matrix-metalloproteïnases (**MMP1, MMP3, MMP9 en MMP13**) zijn duidelijk up-gereguleerd, wat wijst op verhoogde immuuncelrekrutering en weefselremodellering bij personen met RA. In de map **Resultaten** staat de volledige pathview. Met figuur 4 en tabel 1 is er ingezoomd op het **effector-segment van de IL-17-pathway**, waar de downstream-activatie van *NF‑κB en MAPK* leidt tot expressie van ontstekingsgerelateerde genen. 
 
-<div style="font-size: 65%;">
+<div style="font-size: 40%;">
   
 Tabel 1. Ingezoomd overzicht van IL‑17‑geïnduceerde ontstekingsgenen (Pathview‑analyse) 
 | **Categorie**        | **Genen / Moleculen**                                       | **Regulatie**                     |
