@@ -18,24 +18,16 @@ Na de DESeq2-analyse zijn significante genen geselecteerd op basis van padj <0.0
 ___
 
 ## 📊 Resultaten
-De DESeq2-analyse identificeerde in totaal **4572 differentieel tot expressie komende genen (DEGs)** tussen RA en gezond. Daarvan waren:
-**- 2085 genen verhoogd (up-regulated) in RA**
-**- 2487 genen verlaagd (down-regulated) in RA**
-Opvallende genen die sterk veranderden, waren onder andere **BAX, BCL2A1** en **SRGN**. Die genen zijn betrokken bij apoptose, immuunactivatie en ontstekingsprocessen.
+De DESeq2-analyse identificeerde 4572 differentieel tot expressie komende genen (DEGs) tussen RA en gezond, waarvan 2085 verhoogd en 2487 verlaagd. Opvallende genen zoals **BAX**, **BCL2A1**, **SRGN**, **CD28**, **ALPL** en **ADAMTS6** lieten sterke regulatie zien, passend bij apoptose, immuunactivatie en ontstekingsprocessen. In figuur 1 visualiseert de vulcano plot deze veranderingen op basis van log₂ fold change en −log₁₀ p waarde.
 
-De GO-analyse liet zien dat bepaalde processen extra actief zijn bij reuma, waaronder:
-- immuunrespons
-- cytokine-gemedieerde signaalroutes
-- leukocytenactivatie
-- extracellulaire matrixorganisatie
-- ontstekingsprocessen
+<img width="4000" height="5000" alt="VolcanoplotWC" src="https://github.com/user-attachments/assets/d17dc052-f9aa-4a12-a651-7a85e5a2d2b0" />
 
-De KEGG-analyse toonde aan welke pathways in het lichaam extra actief zijn bij reuma, zoals:
-**- TNF signaling pathways**
-**- Cytokine-cytokine receptor interaction**
-**- Toll-like receptor signaling**
-**- NF-kB signaling**
-**-Chemokine signaling pathway**.
+
+
+
+
+
+
 ___
 
 ## 🧠 Conclusie
