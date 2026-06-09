@@ -17,7 +17,7 @@ Vervolgens zijn gen-tellingen gegenereerd met **featureCounts**, waarbij gebruik
 Na de DESeq2-analyse zijn significante genen geselecteerd op basis van padj <0.05 en |log2FC| >1. Om te zien welke processen in het lichaam anders werken, is er een GO-analyse gedaan. Daarbij is ervoor gezorgd dat langere en kortere genen eerlijk met elkaar vergeleken worden. Daarnaast is er een KEGG-analyse uitgevoerd om betrokken signaalroutes te identificeren.  
 
 <div align="center">
-  <img src="Achtergrondinformatie + methode/Flowschema methode.png" width="600"><br>
+  <img src="Achtergrondinformatie + methode/Flowschema van de methode.png" width="600"><br>
   <b>Figuur 1.</b> GO-enrichment barplot.
 </div>
 
@@ -31,11 +31,11 @@ De GO-enrichmentanalyse in figuur 3 laat zien dat de DEGs sterk cluseren binnen 
 <table>
   <tr>
     <td align="center">
-      <img src="Resultaten/VolcanoplotWC.png" width="350"><br>
+      <img src="Resultaten/VolcanoplotWC.png" height="300"><br>
       <b>Figuur 2.</b> Volcano plot van de DESeq2-analyse.
     </td>
     <td align="center">
-      <img src="Resultaten/GO dotplot.png" width="550"><br>
+      <img src="Resultaten/GO dotplot.png" height="300"><br>
       <b>Figuur 3.</b> GO-enrichment dotplot.
     </td>
   </tr>
@@ -47,7 +47,7 @@ De **IL-17 pathway** is gekozen omdat IL17A een belangrijke drijver is van RA-on
 De pathview-analyse van het **IL-17-pathway** toont dat meerdere ontstekingsgerelateerde genfamilies sterk geactiveerd zijn. Vooral chemokines (**CXCL1, CXCL2, CXCL5, CXCL8, CXCL10, CCL2, CCL7 en CCL20**) en matrix-metalloproteïnases (**MMP1, MMP3, MMP9 en MMP13**) zijn duidelijk up-gereguleerd, wat wijst op verhoogde immuuncelrekrutering en weefselremodellering bij personen met RA. In de map **Resultaten** staat de volledige pathview. Met figuur 5 en tabel 1 is er ingezoomd op het **effector-segment van de IL-17-pathway**, waar de downstream-activatie van *NF‑κB en MAPK* leidt tot expressie van ontstekingsgerelateerde genen. 
 
 <div align="center">
-  <img src="Resultaten/Barplot .png" width="600"><br>
+  <img src="Resultaten/Barplot .png" width="400"><br>
   <b>Figuur 4.</b> GO-enrichment barplot.
 </div>
 
@@ -56,12 +56,12 @@ De pathview-analyse van het **IL-17-pathway** toont dat meerdere ontstekingsgere
 <table>
   <tr>
     <td align="center">
-      <img src="Resultaten/Ingezoomd stukje pathview.png" width="350"><br>
+      <img src="Resultaten/Ingezoomd stukje pathview.png" width="330"><br>
       <b>Figuur 5.</b> Ingezoomd stukje Pathview.
     </td>
     <td align="center">
       <b>Tabel 1.</b> IL‑17‑doelgenen van ingezoomd stukje Pathview.
-      <img src="Resultaten/Tabel ingezoomd stukje pathview.png" width="550"><br>
+      <img src="Resultaten/Tabel ingezoomd stukje pathview.png" width="600"><br>
     </td>
   </tr>
 </table>
