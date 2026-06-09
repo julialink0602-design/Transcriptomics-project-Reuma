@@ -46,7 +46,7 @@ De pathview-analyse van het **IL-17-pathway** toont dat meerdere ontstekingsgere
 
     <td align="center">
       <img src="Resultaten/Barplot .png" width="300"><br>
-      <b>Figuur 3.</b> Volcano plot van de DESeq2-analyse.
+      <b>Figuur 3.</b> GO-enrichment barplot.
     </td>
 
     <td align="center">
@@ -62,6 +62,25 @@ De pathview-analyse van het **IL-17-pathway** toont dat meerdere ontstekingsgere
   </tr>
 </table>
 
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+
+  <div align="center">
+    <img src="Resultaten/Barplot.png" width="300"><br>
+    <b>Figuur 1.</b> GO-enrichment barplot.
+  </div>
+
+  <div align="center">
+    <img src="Resultaten/Ingezoomd stukje pathview.png" width="350"><br>
+    <b>Figuur 2.</b> Ingezoomd stukje pathview.
+  </div>
+
+  <div align="center">
+    <img src="Resultaten/Tabel ingezoomd stukje pathview.png" width="300"><br>
+    <b>Figuur 3.</b> IL‑17‑doelgenen (tabel).
+  </div>
+
+</div>
    
 
 
