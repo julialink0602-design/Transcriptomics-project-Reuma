@@ -59,6 +59,7 @@ De pathview-analyse van het **IL-17-pathway** toont dat meerdere ontstekingsgere
     <td align="center">
       <img src="4_Resultaten/Ingezoomd stukje pathview.png" width="330"><br>
       <b>Figuur 5.</b> Ingezoomd stukje Pathview.
+      Chemokines, cytokines, anti-microbieel en tissue remodeling van ingezoomd stukje van de pathview van IL-17.
     </td>
     <td align="center">
       <b>Tabel 1.</b> IL‑17‑doelgenen van ingezoomd stukje Pathview.
