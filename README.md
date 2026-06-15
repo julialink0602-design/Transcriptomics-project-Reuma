@@ -30,11 +30,13 @@ De GO-enrichmentanalyse in figuur 3 laat zien dat de DEGs sterk cluseren binnen 
   <tr>
     <td align="center">
       <img src="4_Resultaten/VolcanoplotWC.png" height="300"><br>
-      <b>Figuur 2.</b> Volcano plot van de DESeq2-analyse (RA vs normaal). Significant gedifferentieerde genen (rood) vallen op door hoge -log10 p-waarden en sterke log2FC. Opvallende RA-geassocieerde genen zijn o.a. SRGN, CD28, CR1, ALPL en ADAMTS6.
+      <b>Figuur 2.</b> Volcano plot van de DESeq2-analyse (RA vs normaal). 
+      Significant gedifferentieerde genen (rood) vallen op door hoge -log10 p-waarden en sterke log2FC. Opvallende RA-geassocieerde genen zijn o.a. SRGN, CD28, CR1, ALPL en ADAMTS6.
     </td>
     <td align="center">
       <img src="4_Resultaten/GO dotplot.png" height="300"><br>
-      <b>Figuur 3.</b> GO-enrichment dotplot van differentieel tot expressie komende genen. Bubbelgrootte = aantal genen, x-as = % hits, kleur = p-waarde. Sterk verrijkte termen zijn o.a immunoglobulin complex, adaptive immune respons en B cell mediated immunity.
+      <b>Figuur 3.</b> GO-enrichment dotplot van differentieel tot expressie komende genen. 
+      Bubbelgrootte = aantal genen, x-as = % hits, kleur = p-waarde. Sterk verrijkte termen zijn o.a immunoglobulin complex, adaptive immune respons en B cell mediated immunity.
     </td>
   </tr>
 </table>
