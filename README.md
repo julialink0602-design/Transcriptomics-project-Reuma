@@ -30,7 +30,7 @@ De GO-enrichmentanalyse in figuur 3 laat zien dat de DEGs sterk cluseren binnen 
   <tr>
     <td align="center">
       <img src="4_Resultaten/VolcanoplotWC.png" height="300"><br>
-      <b>Figuur 2.</b> Volcano plot van de DESeq2-analyse.
+      <b>Figuur 2.</b> **Volcano plot van de DESeq2-analyse (RA vs normaal)** Significant gedifferentieerde genen (rood) vallen op door hoge -log10 p-waarden en sterke log2FC. Opvallende RA-geassocieerde genen zijn o.a. **SRGN, CD28, CR1, ALPL** en **ADAMTS6**.
     </td>
     <td align="center">
       <img src="4_Resultaten/GO dotplot.png" height="300"><br>
