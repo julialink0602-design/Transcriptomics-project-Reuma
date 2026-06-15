@@ -31,7 +31,7 @@ De GO-enrichmentanalyse in figuur 3 laat zien dat de DEGs sterk cluseren binnen 
     <td align="center">
       <img src="4_Resultaten/VolcanoplotWC.png" height="300"><br>
       <b>Figuur 2.</b> Volcano plot van de DESeq2-analyse (RA vs normaal). 
-      Significant gedifferentieerde genen (rood) vallen op door hoge -log10 p-waarden en sterke log2FC. Opvallende RA-geassocieerde genen zijn o.a. SRGN, CD28, CR1, ALPL en ADAMTS6.
+      Significant gedifferentieerde genen (rood) vallen op door hoge -log₁₀ p-waarden en sterke log₂FC. Opvallende RA-geassocieerde genen zijn o.a. SRGN, CD28, CR1, ALPL en ADAMTS6.
     </td>
     <td align="center">
       <img src="4_Resultaten/GO dotplot.png" height="300"><br>
@@ -49,6 +49,7 @@ De pathview-analyse van het **IL-17-pathway** toont dat meerdere ontstekingsgere
 <div align="center">
   <img src="4_Resultaten/Barplot .png" width="400"><br>
   <b>Figuur 4.</b> GO-enrichment barplot.
+  X-as = -log₁₀ adjusted p-waarde, waarbij langere balken sterkere verrijking aangeven. De meest significante GO-termen zijn immunoglobulin complex, B cell mediated immunity en adaptive immune respons.
 </div>
 
 <br><br>
@@ -61,6 +62,7 @@ De pathview-analyse van het **IL-17-pathway** toont dat meerdere ontstekingsgere
     </td>
     <td align="center">
       <b>Tabel 1.</b> IL‑17‑doelgenen van ingezoomd stukje Pathview.
+      Sterke up-regulatie van chemokines en MMP-genen, cytokines tonen gemengde regulatie.
       <img src="4_Resultaten/Tabel ingezoomd stukje pathview.png" width="600"><br>
     </td>
   </tr>
