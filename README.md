@@ -16,7 +16,7 @@ Na de DESeq2-analyse zijn significante genen geselecteerd op basis van padj <0.0
 
 <div align="center">
   <img src="1_Achtergrondinformatie + methode/Flowschema van de methode.png" width="600"><br>
-  <b>Figuur 1.</b> GO-enrichment barplot.
+  <b>Figuur 1.</b> Flowschema methode.
 </div>
 
 
