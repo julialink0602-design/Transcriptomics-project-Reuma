@@ -34,7 +34,7 @@ De GO-enrichmentanalyse in figuur 3 laat zien dat de DEGs sterk cluseren binnen 
     </td>
     <td align="center">
       <img src="4_Resultaten/GO dotplot.png" height="300"><br>
-      <b>Figuur 3.</b> GO-enrichment dotplot.
+      <b>Figuur 3.</b> GO-enrichment dotplot van differentieel tot expressie komende genen. Bubbelgrootte = aantal genen, x-as = % hits, kleur = p-waarde. Sterk verrijkte termen zijn o.a immunoglobulin complex, adaptive immune respons en B cell mediated immunity.
     </td>
   </tr>
 </table>
