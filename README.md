@@ -49,7 +49,7 @@ De pathview-analyse van het **IL-17-pathway** toont dat meerdere ontstekingsgere
 <div align="center">
   <img src="4_Resultaten/Barplot .png" width="400"><br>
   <b>Figuur 4.</b> GO-enrichment barplot.
-  X-as = -log₁₀ adjusted p-waarde, waarbij langere balken sterkere verrijking aangeven. De meest significante GO-termen zijn immunoglobulin complex, B cell mediated immunity en adaptive immune respons.
+  X-as = -log₁₀ adjusted p-waarde, waarbij langere balken een sterker signaal aangeven. De meest significante GO-termen zijn immunoglobulin complex, B cell mediated immunity en adaptive immune respons.
 </div>
 
 <br><br>
