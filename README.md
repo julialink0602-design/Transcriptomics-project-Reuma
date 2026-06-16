@@ -1,5 +1,5 @@
-# Transcriptomics-project-Reuma
-Project Reuma vs Controle
+# Transcriptomics analyse van reumatoïde artritis (RA)
+RNA-seq vergelijking tussen RA en gezonde controles met DESeq2, GO/KEGG analyse en in kaart brengen van de IL-17 pathway.
 
 ## 📁 Introductie 
 Reumatoïde artritis (RA) is een chronische, systematische auto-immuunziekte waarbij het immuunsysteem het eigen gewrichtsweefsel aanvalt. De exacte oorzaak is nog niet volledig bekend, maar een combinatie van genetische factoren, omgevingsinvloeden en een ontregelde immuunrespons speelt een belangrijke rol. Een kenmerkend aspect van RA is synovitis: een ontsteking van het gewrichtsslijmvlies die leidt tot pijn, zwelling en uiteindelijk gewrichtsschade. Vroege diagnose en inzicht in de onderliggende moleculaire processen zijn essentieel om progressie te beperken. (Platzer et al., 2019)
@@ -10,13 +10,13 @@ ___
 ## 🔬 Methode
 De analyse is uitgevoerd in R, waarbij alle onderdelen van de RNA-seq analyse stap voor stap zijn verwerkt zoals het flowschema in figuur 1 . De ruwe RNA‑seq data die in dit project is gebruikt, is afkomstig uit het artikel van Platzer et al. (2019). Het volledige artikel staat in de map Bronnen. De ruwe FASTQ-bestanden zijn gemapt op het humane referentiegenoom **GRCh38 (GCF_000001405.40_GRCh38.p14)**. Hiervoor is het pakket **Rsubread** gebruikt. Eerst is een index ingebouwd, waarna alle reads van de acht samples zijn uitgelijnd. De resulterende BAM-bestanden zijn gesorteerd en geïndexeerd met **Rsamtools**.
 
-Vervolgens zijn gen-tellingen gegenereerd met **featureCounts**, waarbij gebruik gemaakt is van een bijbehorend **genomic.gtf**-annotatiebestand. De count matrix is gebruikt als input voor **DESeq2**, waarmee differntiële genexpressie tussen RA en gezonde controles is bepaald. Hierbij is een model gebruikt met de factor *treatment* (Normal vs RA).
+Vervolgens zijn gen-tellingen gegenereerd met **featureCounts**, waarbij gebruik gemaakt is van een bijbehorend **genomic.gtf**-annotatiebestand. De count matrix is gebruikt als input voor **DESeq2**, waarmee differentiële genexpressie tussen RA en gezonde controles is bepaald. Hierbij is een model gebruikt met de factor *treatment* (Normal vs RA).
 
 Na de DESeq2-analyse zijn significante genen geselecteerd op basis van padj <0.05 en |log2FC| >1. Om te zien welke processen in het lichaam anders werken, is er een GO-analyse gedaan. Daarbij is ervoor gezorgd dat langere en kortere genen eerlijk met elkaar vergeleken worden. Daarnaast is er een KEGG-analyse uitgevoerd om betrokken signaalroutes te identificeren.  
 
 <div align="center">
-  <img src="Achtergrondinformatie + methode/Flowschema van de methode.png" width="600"><br>
-  <b>Figuur 1.</b> GO-enrichment barplot.
+  <img src="1_Achtergrondinformatie + methode/Flowschema van de methode.png" width="600"><br>
+  <b>Figuur 1.</b> Flowschema methode.
 </div>
 
 
@@ -24,29 +24,32 @@ ___
 
 ## 📊 Resultaten
 De DESeq2-analyse identificeerde 4572 differentieel tot expressie komende genen (DEGs) tussen RA en gezond, waarvan 2085 verhoogd en 2487 verlaagd. Opvallende genen zoals **BAX**, **BCL2A1**, **SRGN**, **CD28**, **ALPL** en **ADAMTS6** lieten sterke regulatie zien, passend bij apoptose, immuunactivatie en ontstekingsprocessen. In figuur 2 visualiseert de vulcano plot deze veranderingen op basis van log₂ fold change en −log₁₀ p waarde. Voorafgaand aan de GO-analyse werd genlengte-bias gecorrigeerd met GOseq; de bijbehorende plot (*gene length bias correction en proportion DE vs. bias*) zijn beschikbaar in de map Resulaten. 
-De GO-enrichmentanalyse in figuur 3 laat zien dat de DEGs sterk cluseren binnen immuungerelateerde processen, waronder **immunoglobulin complex**, **adaptive immune response**, **B cell mediated immunity**, **antigen binding**, **leukocyte activation** en **cell activation**.
+De GO-enrichmentanalyse in figuur 3 laat zien dat de DEGs sterk cluseren binnen immuungerelateerde processen, waaronder **immunoglobulin complex**, **adaptive immune response**, **B cell mediated immunity**, **antigen binding**, **leukocyte activation** en **cell activation**.
 
 <table>
   <tr>
     <td align="center">
-      <img src="Resultaten/VolcanoplotWC.png" height="300"><br>
-      <b>Figuur 2.</b> Volcano plot van de DESeq2-analyse.
+      <img src="4_Resultaten/VolcanoplotWC.png" height="300"><br>
+      <b>Figuur 2.</b> Volcano plot van de DESeq2-analyse (RA vs normaal). 
+      Significant gedifferentieerde genen (rood) vallen op door hoge -log₁₀ p-waarden en sterke log₂FC. Opvallende RA-geassocieerde genen zijn o.a. SRGN, CD28, CR1, ALPL en ADAMTS6.
     </td>
     <td align="center">
-      <img src="Resultaten/GO dotplot.png" height="300"><br>
-      <b>Figuur 3.</b> GO-enrichment dotplot.
+      <img src="4_Resultaten/GO dotplot.png" height="300"><br>
+      <b>Figuur 3.</b> GO-enrichment dotplot van differentieel tot expressie komende genen. 
+      Bubbelgrootte = aantal genen, x-as = % hits, kleur = p-waarde. Sterk verrijkte termen zijn o.a immunoglobulin complex, adaptive immune respons en B cell mediated immunity.
     </td>
   </tr>
 </table>
 
-De GO-barplot in figuur 4 bevestigt dat vooral humorale en adaptieve immuunroutes significant verrijkt zijn, met hoge -log10 adjusted p-waarden voor onder anderen **immunoglobulin mediated immune response, B cell mediated immunity** en **adaptive immune respons**. 
+De GO-barplot in figuur 4 bevestigt dat vooral humorale en adaptieve immuunroutes significant versterkt zijn, met hoge -log10 adjusted p-waarden voor onder anderen **immunoglobulin mediated immune response, B cell mediated immunity** en **adaptive immune respons**. 
 
-De **IL-17 pathway** is gekozen omdat IL17A een belangrijke drijver is van RA-ontsteking en betrokken is bij de overgang van acute naar chronische gewrichtsschade. Het onderliggende artikel (*Cytokine, 2008; PMID:18039580) staat in de map **Bronnen** en beschrijft IL-17-pathway als centraal mechanisme in RA-pathogenese.
+De **IL-17 pathway** is gekozen omdat IL17A een belangrijke drijver is van RA-ontsteking en betrokken is bij de overgang van acute naar chronische gewrichtsschade. Het onderliggende artikel (Lubberts, 2008) staat in de map **Bronnen** en beschrijft IL-17-pathway als centraal mechanisme in RA-pathogenese.
 De pathview-analyse van het **IL-17-pathway** toont dat meerdere ontstekingsgerelateerde genfamilies sterk geactiveerd zijn. Vooral chemokines (**CXCL1, CXCL2, CXCL5, CXCL8, CXCL10, CCL2, CCL7 en CCL20**) en matrix-metalloproteïnases (**MMP1, MMP3, MMP9 en MMP13**) zijn duidelijk up-gereguleerd, wat wijst op verhoogde immuuncelrekrutering en weefselremodellering bij personen met RA. In de map **Resultaten** staat de volledige pathview. Met figuur 5 en tabel 1 is er ingezoomd op het **effector-segment van de IL-17-pathway**, waar de downstream-activatie van *NF‑κB en MAPK* leidt tot expressie van ontstekingsgerelateerde genen. 
 
 <div align="center">
-  <img src="Resultaten/Barplot .png" width="400"><br>
+  <img src="4_Resultaten/Barplot .png" width="400"><br>
   <b>Figuur 4.</b> GO-enrichment barplot.
+  X-as = -log₁₀ adjusted p-waarde, waarbij langere balken een sterker signaal aangeven. De meest significante GO-termen zijn immunoglobulin complex, B cell mediated immunity en adaptive immune respons.
 </div>
 
 <br><br>
@@ -54,12 +57,14 @@ De pathview-analyse van het **IL-17-pathway** toont dat meerdere ontstekingsgere
 <table>
   <tr>
     <td align="center">
-      <img src="Resultaten/Ingezoomd stukje pathview.png" width="330"><br>
+      <img src="4_Resultaten/Ingezoomd stukje pathview.png" width="330"><br>
       <b>Figuur 5.</b> Ingezoomd stukje Pathview.
+      Chemokines, cytokines, anti-microbieel en tissue remodeling van ingezoomd stukje van de pathview van IL-17.
     </td>
     <td align="center">
       <b>Tabel 1.</b> IL‑17‑doelgenen van ingezoomd stukje Pathview.
-      <img src="Resultaten/Tabel ingezoomd stukje pathview.png" width="600"><br>
+      Sterke up-regulatie van chemokines en MMP-genen, cytokines tonen gemengde regulatie.
+      <img src="4_Resultaten/Tabel ingezoomd stukje pathview.png" width="600"><br>
     </td>
   </tr>
 </table>
