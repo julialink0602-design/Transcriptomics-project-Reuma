@@ -1,0 +1,18 @@
+
+Package	Versie	Functie
+Rsubread	2.24.0	Alignment & featureCounts
+Rsamtools	2.26.0	Sorteren & indexeren BAM
+DESeq2	1.50.2	Differential expression
+EnhancedVolcano	1.28.2	Volcano plot
+KEGGREST	1.50.0	KEGG API‑queries
+pathview	1.50.0	KEGG pathway visualisatie
+goseq	1.62.0	GO enrichment
+geneLenDataBase	1.46.0	Genlengtes voor GOseq
+org.Hs.eg.db	3.22.0	Mapping genen → GO
+GO.db	3.22.0	GO‑database
+GenomicFeatures	1.62.0	TxDb maken uit GTF
+txdbmaker	1.6.2	GTF → TxDb
+ggplot2	4.0.3	Visualisatie
+dplyr	1.2.0	Data wrangling
+
+
