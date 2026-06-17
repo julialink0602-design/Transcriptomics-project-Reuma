@@ -1,19 +1,19 @@
 
-Package	Versie	Functie
-Rsubread	2.24.0	Alignment & featureCounts
-Rsamtools	2.26.0	Sorteren & indexeren BAM
-DESeq2	1.50.2	Differential expression
-EnhancedVolcano	1.28.2	Volcano plot
-KEGGREST	1.50.0	KEGG API‑queries
-pathview	1.50.0	KEGG pathway visualisatie
-goseq	1.62.0	GO enrichment
-geneLenDataBase	1.46.0	Genlengtes voor GOseq
-org.Hs.eg.db	3.22.0	Mapping genen → GO
-GO.db	3.22.0	GO‑database
-GenomicFeatures	1.62.0	TxDb maken uit GTF
-txdbmaker	1.6.2	GTF → TxDb
-ggplot2	4.0.3	Visualisatie
-dplyr	1.2.0	Data wrangling
-
+| Package | Versie | Auteur(s) + jaar |
+|----------|----------|----------|
+| Rsubread | 2.24.0 | Liao et al. (2019) |
+| Rsamtools | 2.26.0 | Li et al. (2009) |
+| DESeq2 | 1.50.2 | Love, Huber & Anders (2014) |
+| EnhancedVolcano | 1.28.2 | Hossain et al. (2025) |
+| KEGGREST | 1.50.0 | Hossain et al. (2025) |
+| pathview | 1.50.0 | Luo & Brouwer (2013) |
+| goseq | 1.62.0 | Young et al. (2010) |
+| geneLenDataBase | 1.46.0 | Young et al. (2010) |
+| org.Hs.eg.db | 3.22.0 | Hossain et al. (2025) |
+| GO.db | 3.22.0 | Hossain et al. (2025) |
+| GenomicFeatures | 1.62.0 | Lawrence et al. (2013) |
+| txdbmaker | 1.6.2 | Hossain et al. (2025) |
+| ggplot2 | 4.0.3 | Wickham et al. (2019) |
+| dplyr | 1.2.0 | Wickham et al. (2019) |
 
 De volledige artikelen staan in de map Bronnen
