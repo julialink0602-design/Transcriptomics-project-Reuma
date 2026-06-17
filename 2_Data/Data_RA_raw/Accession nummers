@@ -1,0 +1,17 @@
+| Sample | SRA accession nummer | Sequencing bestanden |
+
+| Normal1 | SRR4785819 | SRR4785819_1_subset40k.fastq en SRR4785819_2_subset40k.fastq |
+
+| Normal2 | SRR4785820 | SRR4785820_1_subset40k.fastq en SRR4785820_2_subset40k.fastq |
+
+| Normal3 | SRR4785828 | SRR4785828_1_subset40k.fastq en SRR4785828_2_subset40k.fastq |
+
+| Normal4 | SRR4785831 | SRR4785831_1_subset40k.fastq en SRR4785831_2_subset40k.fastq |
+
+| RA5     | SRR4785979 | SRR4785979_1_subset40k.fastq en SRR4785979_2_subset40k.fastq |
+
+| RA6     | SRR4785980 | SRR4785980_1_subset40k.fastq en SRR4785980_2_subset40k.fastq |
+
+| RA7     | SRR4785986 | SRR4785986_1_subset40k.fastq en SRR4785986_2_subset40k.fastq |
+  
+| RA8     | SRR4785988 | SRR4785988_1_subset40k.fastq en SRR4785988_2_subset40k.fastq |
