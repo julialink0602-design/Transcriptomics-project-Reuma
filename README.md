@@ -23,6 +23,7 @@ Na de DESeq2-analyse zijn significante genen geselecteerd op basis van padj <0.0
 ___
 
 ## 📊 Resultaten
+Het doel van de transcriptomics analyse was om te bepalen welke genen en biologische processen verschillen in expressie tussen synoviaal weefsel van personen met reumatoïde artritis (RA) en gezonde controles. 
 De DESeq2-analyse identificeerde 4572 differentieel tot expressie komende genen (DEGs) tussen RA en gezond, waarvan 2085 verhoogd en 2487 verlaagd. Opvallende genen zoals **BAX**, **BCL2A1**, **SRGN**, **CD28**, **ALPL** en **ADAMTS6** lieten sterke regulatie zien, passend bij apoptose, immuunactivatie en ontstekingsprocessen. In figuur 2 visualiseert de vulcano plot deze veranderingen op basis van log₂ fold change en −log₁₀ p waarde. Voorafgaand aan de GO-analyse werd genlengte-bias gecorrigeerd met GOseq; de bijbehorende plot (*gene length bias correction en proportion DE vs. bias*) zijn beschikbaar in de map Resulaten. 
 De GO-enrichmentanalyse in figuur 3 laat zien dat de DEGs sterk cluseren binnen immuungerelateerde processen, waaronder **immunoglobulin complex**, **adaptive immune response**, **B cell mediated immunity**, **antigen binding**, **leukocyte activation** en **cell activation**.
 
