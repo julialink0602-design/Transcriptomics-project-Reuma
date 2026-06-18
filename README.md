@@ -2,9 +2,9 @@
 RNA-seq vergelijking tussen RA en gezonde controles met DESeq2, GO/KEGG analyse en in kaart brengen van de IL-17 pathway.
 
 ## 📁 Introductie 
-Reumatoïde artritis (RA) is een chronische, systematische auto-immuunziekte waarbij het immuunsysteem het eigen gewrichtsweefsel aanvalt. De exacte oorzaak is nog niet volledig bekend, maar een combinatie van genetische factoren, omgevingsinvloeden en een ontregelde immuunrespons speelt een belangrijke rol. (Hitchon & El-Gabalawy, 2011). Een kenmerkend aspect van RA is synovitis: een ontsteking van het gewrichtsslijmvlies die leidt tot pijn, zwelling en uiteindelijk gewrichtsschade. Vroege diagnose en inzicht in de onderliggende moleculaire processen zijn essentieel om progressie te beperken. (Platzer et al., 2019)
+Reumatoïde artritis (RA) is een chronische, systemische auto-immuunziekte waarbij het immuunsysteem het eigen gewrichtsweefsel aanvalt. De exacte oorzaak is nog niet volledig bekend, maar een combinatie van genetische factoren, omgevingsinvloeden en een ontregelde immuunrespons speelt een belangrijke rol. (Hitchon & El-Gabalawy, 2011). Een kenmerkend aspect van RA is synovitis: een ontsteking van het gewrichtsslijmvlies die leidt tot pijn, zwelling en uiteindelijk gewrichtsschade. Vroege diagnose en inzicht in de onderliggende moleculaire processen zijn essentieel om progressie te beperken. (Platzer et al., 2019)
 
-In dit project is een transcriptomics-analyse uitgevoerd op RNA-seq data afkomstig uit synoviumbiopten van vier gezonde personen en vier personen met vastgestelde RA (>12 maanden, ACPA-positief). Door middel van bio-informatische analyse worden verschillen in genexpressie onderzocht tussen beide groepen wat ook weergegeven wordt in *Informatie casus RA* in de map **1_Achtergrondinformatie + methode**. Het doel is om inzicht te krijgen in welke genen en biologische processen veranderen bij RA en welke pathways mogelijk betrokken zijn bij de ziekte. De uitkomsten laten zien welke processen in het lichaam anders werken bij reuma, dat geeft meer inzicht in de ziekte en kan helpen bij het zoeken naar nieuwe medicijnen. De accession nummers van alle samples worden weergegeven in *.....* in de map **2_Data/Data_RA_raw**.
+In dit project is een transcriptomics-analyse uitgevoerd op RNA-seq data afkomstig uit synoviumbiopten van vier gezonde personen en vier personen met vastgestelde RA (>12 maanden, ACPA-positief). Door middel van bio-informatische analyse worden verschillen in genexpressie onderzocht tussen beide groepen wat ook weergegeven wordt in *Informatie casus RA* in de map **1_Achtergrondinformatie + methode**. Het doel is om inzicht te krijgen in welke genen en biologische processen veranderen bij RA en welke pathways mogelijk betrokken zijn bij de ziekte. De uitkomsten laten zien welke processen in het lichaam anders werken bij reuma, dat geeft meer inzicht in de ziekte en kan helpen bij het zoeken naar nieuwe medicijnen. De accessionnummer van alle gebruikte samples zijn opgenomen in het bestand *Accession nummers* in de map **2_Data/Data_RA_raw**.
 ___
 
 ## 🔬 Methode
@@ -24,8 +24,8 @@ ___
 
 ## 📊 Resultaten
 Het doel van de transcriptomics analyse was om te bepalen welke genen en biologische processen verschillen in expressie tussen synoviaal weefsel van personen met reumatoïde artritis (RA) en gezonde controles. 
-De DESeq2-analyse identificeerde 4572 differentieel tot expressie komende genen (DEGs) tussen RA en gezond, waarvan 2085 verhoogd en 2487 verlaagd. Opvallende genen zoals **BAX**, **BCL2A1**, **SRGN**, **CD28**, **ALPL** en **ADAMTS6** lieten sterke regulatie zien, passend bij apoptose, immuunactivatie en ontstekingsprocessen. In figuur 2 visualiseert de vulcano plot deze veranderingen op basis van log₂ fold change en −log₁₀ p waarde. Voorafgaand aan de GO-analyse werd genlengte-bias gecorrigeerd met GOseq; de bijbehorende plot (*gene length bias correction en proportion DE vs. bias*) zijn beschikbaar in de map **4_Resulaten**. 
-De GO-enrichmentanalyse in figuur 3 laat zien dat de DEGs sterk cluseren binnen immuungerelateerde processen, waaronder **immunoglobulin complex**, **adaptive immune response**, **B cell mediated immunity**, **antigen binding**, **leukocyte activation** en **cell activation**.
+De DESeq2-analyse identificeerde 4572 differentieel tot expressie komende genen (DEGs) tussen RA en gezond, waarvan 2085 verhoogd en 2487 verlaagd. Opvallende genen zoals **BAX**, **BCL2A1**, **SRGN**, **CD28**, **ALPL** en **ADAMTS6** vertoonden een sterke differentiële expressie tussen RA en gezonde controles. In figuur 2 visualiseert de vulcano plot deze veranderingen op basis van log₂ fold change en −log₁₀ p waarde. Voorafgaand aan de GO-analyse werd genlengte-bias gecorrigeerd met GOseq; de bijbehorende plot (*gene length bias correction en proportion DE vs. bias*) zijn beschikbaar in de map **4_Resulaten**. 
+De GO-enrichmentanalyse in figuur 3 laat zien dat de DEGs sterk clusteren binnen immuungerelateerde processen, waaronder **immunoglobulin complex**, **adaptive immune response**, **B cell mediated immunity**, **antigen binding**, **leukocyte activation** en **cell activation**.
 
 <table>
   <tr>
@@ -79,4 +79,16 @@ Deze transcriptomics-analyse laat zien dat reumatoïde artritis samen gaat met d
 
 De GO-analyse bevestigt dat vooral adaptieve en humorale immuunprocessen, waaronder immunoglobuline complex, B-celactivatie en antigen binding, versterkt zijn. Dit sluit aan de bij bekende rol van B-cellen en auto-antilichamen in RA. De KEGG-analyse toont dat centrale ontstekingsroutes, zoals TNF-, NF κB, Toll like receptor  en cytokine cytokine receptor interactie, duidelijk geactiveerd zijn. De pathview-analyse van het IL-17-pathview laat bovendien sterke upregulatie zien van chemokines (CXCL1/2/5/8/10, CCL2/7/20), matrix neutrofielenrekrutering, kraakbeendegradatie en synoviale inflammatie.
 
-Deze resultaten sluiten aan bij eerdere studies, waaronder Taams (2020), die benadrukt dat IL-17 een belangrijke bijdrage levert aan synoviale inflammatie, ondanks wisselende klinische respons op IL-17 remming. Op babis hiervan wordt aanbevolen om een vervolgonderzoek te richten op combinatietherapieën die IL-17 remming koppelen aan remming van andere ontstekingsroutes, zoals TNF of GM-CSF. Taams (2020) benadrukt dat IL-17 activiteit sterk afhankelijk is van de ontstekingscontext en vaak synergetisch werkt met andere cyokinen. Door deze interacties gericht te moduleren kan mogelijk een sterker therapeutisch effect worden bereukt dan met IL-17 remming alleen.
+Deze resultaten sluiten aan bij eerdere studies, waaronder Taams (2020), die benadrukt dat IL-17 een belangrijke bijdrage levert aan synoviale inflammatie, ondanks wisselende klinische respons op IL-17 remming. Op basis hiervan wordt aanbevolen om een vervolgonderzoek te richten op combinatietherapieën die IL-17 remming koppelen aan remming van andere ontstekingsroutes, zoals TNF of GM-CSF. Taams (2020) benadrukt dat IL-17 activiteit sterk afhankelijk is van de ontstekingscontext en vaak synergetisch werkt met andere cytokinen. Door deze interacties gericht te moduleren kan mogelijk een sterker therapeutisch effect worden bereikt dan met IL-17 remming alleen.
+
+
+
+## Referenties
+
+Hitchon, C. A., & El-Gabalawy, H. S. (2011)
+
+Platzer, A. et al. (2019)
+
+Lubberts, E. (2008)
+
+Taams, L. S. (2020)
