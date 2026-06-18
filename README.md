@@ -1,3 +1,5 @@
+J2P4_BM_Transcriptomics_Julia Link_LBM2.C
+
 # Transcriptomics analyse van reumatoïde artritis (RA)
 RNA-seq vergelijking tussen RA en gezonde controles met DESeq2, GO/KEGG analyse en in kaart brengen van de IL-17 pathway.
 
