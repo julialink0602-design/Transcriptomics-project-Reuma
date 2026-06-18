@@ -75,20 +75,15 @@ De pathview-analyse van het **IL-17-pathway** toont dat meerdere ontstekingsgere
 ___
 
 ## 🧠 Conclusie
-Deze transcriptomics-analyse laat zien dat reumatoïde artritis samen gaat met duidelijke veranderingen in genexpressie in het synoviale weefsel. De DESeq2-analyse toont duizenden differentieel tot expressie komende genen, waarbij vooral ontstekings- en immuunresponsgenen sterk zijn upgereguleerd. Opvallende genen zoals SRGN, CD28, CR1, ALPL en ADAMTS6 wijzen op activatie van immuuncellen, cytokinesignalering en weefselremodellering. Daarnaast laten apoptose-gerelateerde genen (zoals BAX en BCL2A1) verstoringen zien die passen bij de chronische ontstekingsomgeving in RA. 
+In deze studie werden transcriptomische verschillen onderzocht tussen synoviaal weefsel van patiënten met reumatoïde artritis (RA) en gezonde controles. De DESeq2-analyse identificeerde duizenden differentieel tot expressie komende genen, aarbij vooral ontstekings- en immuunresponsgenen verhoogd tot expressie kwamen. Opvallende genen zoals SRGN, CD28, CR1, ALPL en ADAMTS6 wijzen op activatie van immuuncellen, cytokinesignalering en weefselremodellering. Daarnaast vertoonden apoptose-gerelateerde genen, waaronder BAX en BCL2A1, veranderingen die passen bij de chronische ontstekingsomgeving van RA.
 
-De GO-analyse bevestigt dat vooral adaptieve en humorale immuunprocessen, waaronder immunoglobuline complex, B-celactivatie en antigen binding, versterkt zijn. Dit sluit aan de bij bekende rol van B-cellen en auto-antilichamen in RA. De KEGG-analyse toont dat centrale ontstekingsroutes, zoals TNF-, NF κB, Toll like receptor  en cytokine cytokine receptor interactie, duidelijk geactiveerd zijn. De pathview-analyse van het IL-17-pathview laat bovendien sterke upregulatie zien van chemokines (CXCL1/2/5/8/10, CCL2/7/20), matrix neutrofielenrekrutering, kraakbeendegradatie en synoviale inflammatie.
+De GO-analyse bevestigde dat vooral adaptieve en humorale immuunprocessen, waaronder immunoglobuline complex, B-celactivatie en antigen binding, versterkt zijn. De KEGG-analyse liet activi
+
+
+ Dit sluit aan de bij bekende rol van B-cellen en auto-antilichamen in RA. De KEGG-analyse toont dat centrale ontstekingsroutes, zoals TNF-, NF κB, Toll like receptor  en cytokine cytokine receptor interactie, duidelijk geactiveerd zijn. De pathview-analyse van het IL-17-pathview laat bovendien sterke upregulatie zien van chemokines (CXCL1/2/5/8/10, CCL2/7/20), matrix neutrofielenrekrutering, kraakbeendegradatie en synoviale inflammatie.
 
 Deze resultaten sluiten aan bij eerdere studies, waaronder Taams (2020), die benadrukt dat IL-17 een belangrijke bijdrage levert aan synoviale inflammatie, ondanks wisselende klinische respons op IL-17 remming. Op basis hiervan wordt aanbevolen om een vervolgonderzoek te richten op combinatietherapieën die IL-17 remming koppelen aan remming van andere ontstekingsroutes, zoals TNF of GM-CSF. Taams (2020) benadrukt dat IL-17 activiteit sterk afhankelijk is van de ontstekingscontext en vaak synergetisch werkt met andere cytokinen. Door deze interacties gericht te moduleren kan mogelijk een sterker therapeutisch effect worden bereikt dan met IL-17 remming alleen.
 
 
 
-## Referenties
-
-Hitchon, C. A., & El-Gabalawy, H. S. (2011)
-
-Platzer, A. et al. (2019)
-
-Lubberts, E. (2008)
-
-Taams, L. S. (2020)
+ams, L. S. (2020)
